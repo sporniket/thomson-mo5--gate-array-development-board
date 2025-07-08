@@ -48,9 +48,9 @@ F1 "FTDI_232H_MODULE_USB-C_VERSION" 0 200 50 H V L TNB
 F3 "https://learn.adafruit.com/adafruit-ft232h-breakout/wiring" 0 500 50 H I L TNN
 DRAW
 # --- --- --- ---
-# C -- "C" data bus
+# C -- 'C' data bus
 #
-T 0 0 100 50 1 1 0 ""C" data bus" Normal 0 L T
+T 0 0 100 50 1 1 0 "'C' data bus" Normal 0 L T
 S 0 0 300 -1100 1 0 10 f
 X C0 1 600 -100 300 L 50 50 1 0 B 
 X C1 2 600 -200 300 L 50 50 1 0 B 
@@ -63,9 +63,9 @@ X C7 8 600 -800 300 L 50 50 1 0 B
 X C8 9 600 -900 300 L 50 50 1 0 B 
 X C9 10 600 -1000 300 L 50 50 1 0 B 
 # --- --- --- ---
-# D -- "D" data bus
+# D -- 'D' data bus
 #
-T 0 0 100 50 1 2 0 ""D" data bus" Normal 0 L T
+T 0 0 100 50 1 2 0 "'D' data bus" Normal 0 L T
 S 0 0 300 -900 2 0 10 f
 X D7 22 600 -100 300 L 50 50 2 0 B 
 X D6 21 600 -200 300 L 50 50 2 0 B 
