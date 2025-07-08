@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 87f43b0c-54c5-4870-9c05-29ca3a1c833b)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "Thomson MO5 — Gate array development board")
+    (date "2025-07-08")
+    (rev "v0.0.0-draft")
+    (company "Sporniket.com")
+  )
+
+  (lib_symbols
+  )
+
+)

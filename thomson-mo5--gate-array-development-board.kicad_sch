@@ -1,0 +1,77 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ba04bd6b-eda4-4852-8472-8c9205b270a0)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "Thomson MO5 — Gate array development board")
+    (date "2025-07-08")
+    (rev "v0.0.0-draft")
+    (company "Sporniket.com")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Table of content" (at 22.86 38.1 0)
+    (effects (font (size 12.7 12.7) (thickness 2.54) bold) (justify left bottom))
+    (uuid a50932cd-1fb8-476d-b52f-6d80eba597ab)
+  )
+
+  (sheet (at 25.4 114.3) (size 160.02 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43fc8418-007a-42ff-a872-35ec7cc6b9b4)
+    (property "Sheetname" "Gate array socket (EFCIS,...)" (at 25.4 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheet_03.kicad_sch" (at 25.4 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thomson-mo5--gate-array-development-board"
+        (path "/ba04bd6b-eda4-4852-8472-8c9205b270a0" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 88.9) (size 160.02 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8abf80db-8d3e-4be3-a10e-330b91c9823d)
+    (property "Sheetname" "Gate array socket (Motorola)" (at 25.4 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheet_02.kicad_sch" (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thomson-mo5--gate-array-development-board"
+        (path "/ba04bd6b-eda4-4852-8472-8c9205b270a0" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 63.5) (size 160.02 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid aa83933c-d278-4584-ab2e-5bb5678ba36b)
+    (property "Sheetname" "FTDI breakouts, source JTAG, DC-DC converter" (at 25.4 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "subsheet_01.kicad_sch" (at 25.4 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thomson-mo5--gate-array-development-board"
+        (path "/ba04bd6b-eda4-4852-8472-8c9205b270a0" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
