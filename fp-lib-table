@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "commons-oscillators_THT")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/commons-oscillators_THT.pretty")(options "")(descr ""))
+  (lib (name "assemblies_power_modules")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/assemblies_power_modules.pretty")(options "")(descr ""))
+  (lib (name "commons-passives_THT")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/commons-passives_THT.pretty")(options "")(descr ""))
+  (lib (name "thomson-moto-interconnect")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/thomson-moto-interconnect.pretty")(options "")(descr ""))
 )
