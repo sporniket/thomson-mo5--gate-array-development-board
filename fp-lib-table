@@ -5,4 +5,5 @@
   (lib (name "commons-passives_THT")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/commons-passives_THT.pretty")(options "")(descr ""))
   (lib (name "thomson-moto-interconnect")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/thomson-moto-interconnect.pretty")(options "")(descr ""))
   (lib (name "assemblies_ftdi232h")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/assemblies_ftdi232h.pretty")(options "")(descr ""))
+  (lib (name "cliparts")(type "KiCad")(uri "${KIPRJMOD}/cliparts.pretty")(options "")(descr ""))
 )
