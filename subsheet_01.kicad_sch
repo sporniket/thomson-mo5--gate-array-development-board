@@ -6,7 +6,7 @@
 
   (title_block
     (title "Thomson MO5 — Gate array development board")
-    (date "2025-07-08")
+    (date "2025-07-12")
     (rev "v0.0.0-draft")
     (company "Sporniket.com")
   )
@@ -1305,7 +1305,7 @@
     (property "Value" "FTDI_232H_MODULE_USB-A_VERSION_PHY" (at 36.83 71.12 0)
       (effects (font (size 1.27 1.27) bold) (justify left top))
     )
-    (property "Footprint" "" (at 44.45 87.63 0)
+    (property "Footprint" "assemblies_ftdi232h:Noname_FT232H_breakout_USB_A" (at 44.45 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "_None_" (at 36.83 63.5 0)
@@ -1739,7 +1739,7 @@
     (property "Value" "FTDI_232H_MODULE_USB-C_VERSION_PHY" (at 35.56 20.32 0)
       (effects (font (size 1.27 1.27) bold) (justify left top))
     )
-    (property "Footprint" "" (at 44.45 38.1 0)
+    (property "Footprint" "assemblies_ftdi232h:Adafruit_FT232H_breakout_USB_C" (at 44.45 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://learn.adafruit.com/adafruit-ft232h-breakout/wiring" (at 35.56 12.7 0)
