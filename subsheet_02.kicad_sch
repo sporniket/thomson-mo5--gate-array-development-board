@@ -7,7 +7,7 @@
   (title_block
     (title "Thomson MO5 — Gate array development board")
     (date "2025-07-13")
-    (rev "v1.0.1")
+    (rev "v1.0.2")
     (company "Sporniket.com")
   )
 
@@ -753,7 +753,6 @@
   (no_connect (at 121.92 63.5) (uuid 62cf991c-b724-464e-8522-638b7b8b5ebd))
   (no_connect (at 147.32 124.46) (uuid 64cd699e-8f47-4c1d-b16f-b2fd6fda315f))
   (no_connect (at 101.6 215.9) (uuid 657f7b40-16f3-4b1a-973a-eb165c1982d8))
-  (no_connect (at 101.6 149.86) (uuid 678d7e0a-e047-45d7-840e-7369c6a8d0e0))
   (no_connect (at 147.32 121.92) (uuid 6a619b31-f68e-4e66-a4f9-dc7dccd231ae))
   (no_connect (at 101.6 210.82) (uuid 6a9f21ab-fe31-4158-97fe-934be506b510))
   (no_connect (at 86.36 63.5) (uuid 6c9b4835-8c53-4e8d-ac1a-cd8956d06e2e))
@@ -845,7 +844,7 @@
     (stroke (width 0) (type default))
     (uuid 35a353fe-9c5a-4387-b27a-4f556857e687)
   )
-  (wire (pts (xy 93.98 162.56) (xy 93.98 157.48))
+  (wire (pts (xy 93.98 160.02) (xy 93.98 157.48))
     (stroke (width 0) (type default))
     (uuid 384285dd-3bab-4625-9be6-c39b36bab521)
   )
@@ -905,7 +904,7 @@
     (stroke (width 0) (type default))
     (uuid 74d4e0db-981e-4512-b8f6-871501d128ab)
   )
-  (wire (pts (xy 99.06 149.86) (xy 99.06 162.56))
+  (wire (pts (xy 99.06 149.86) (xy 99.06 160.02))
     (stroke (width 0) (type default))
     (uuid 78d414bf-43e1-4947-bed4-e5b6e401c774)
   )
@@ -977,7 +976,7 @@
     (stroke (width 0) (type default))
     (uuid de24d0e9-6859-4d24-b2aa-03247e80118c)
   )
-  (wire (pts (xy 99.06 162.56) (xy 93.98 162.56))
+  (wire (pts (xy 99.06 160.02) (xy 93.98 160.02))
     (stroke (width 0) (type default))
     (uuid e1ce2cc2-e34f-4739-a551-c9ed2c526437)
   )
@@ -1016,6 +1015,10 @@
   (wire (pts (xy 33.02 215.9) (xy 50.8 215.9))
     (stroke (width 0) (type default))
     (uuid fc3dd77a-506d-4fcc-94be-b7d1c6bf3aa4)
+  )
+  (wire (pts (xy 101.6 149.86) (xy 101.6 162.56))
+    (stroke (width 0) (type default))
+    (uuid fdcab11f-88ce-4f85-9a10-5a7aab0a55ee)
   )
 
   (text "The LED D3 should blink at 1Hz \nwhen the CPLD is programmed successfully"
@@ -1135,6 +1138,31 @@
       (project "thomson-mo5--gate-array-development-board"
         (path "/ba04bd6b-eda4-4852-8472-8c9205b270a0/8abf80db-8d3e-4be3-a10e-330b91c9823d"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 101.6 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 51632467-6363-43a7-8ffd-7d6da5b80178)
+    (property "Reference" "#PWR028" (at 101.6 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 101.6 166.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 101.6 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 101.6 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd04b4c3-5b6c-491c-8ee5-44eca2a89197))
+    (instances
+      (project "thomson-mo5--gate-array-development-board"
+        (path "/ba04bd6b-eda4-4852-8472-8c9205b270a0/8abf80db-8d3e-4be3-a10e-330b91c9823d"
+          (reference "#PWR028") (unit 1)
         )
       )
     )

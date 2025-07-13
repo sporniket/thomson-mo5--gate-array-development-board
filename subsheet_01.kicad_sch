@@ -7,7 +7,7 @@
   (title_block
     (title "Thomson MO5 — Gate array development board")
     (date "2025-07-13")
-    (rev "v1.0.1")
+    (rev "v1.0.2")
     (company "Sporniket.com")
     (comment 3 "https://github.com/sporniket/thomson-mo5--gate-array-development-board")
     (comment 4 "Original repository : ")

@@ -25,6 +25,10 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
+#### Version 1.0.2
+
+Fixed missing tie to ground for U3 pin 35.
+
 #### Version 1.0.1
 
 Fixed pagination in the schematic.
