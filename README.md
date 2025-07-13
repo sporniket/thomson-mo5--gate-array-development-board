@@ -25,7 +25,9 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
-> No releases yet
+#### Version 1.0.0
+
+Initial release, all should be well.
 
 ## 2. What should you know before using **Development board for a replacement of the gate-array of the Thomson MO5 computer** ?
 
@@ -35,13 +37,13 @@ The board accept :
 
 * one of the FTDI 232H breakout board available, either the version with USB-A port, or the [Adafruit version with USB-C port](https://learn.adafruit.com/adafruit-ft232h-breakout/wiring).
 
-* A CC-CC voltage converter (boost), to convert 5V to 12V.
+* A CC-CC voltage converter (boost), to convert 5V to 12V (or higher). Required only if one use CPLD with locked JTAG functionnality that is unlocked with a voltage specified by the datasheet (e.g. 12V for ATF1508)
 
 The board has 3 footprints : 
 
 * One footprint specific to the Motorola gate array (like a staggered PLCC 68 footprint)
 
-* Two footprints for the EFCIS gate array and later versions, one for a regular PLCC 68 socket (for project trying to use the original socket), another PLCC 68 footprint for projects that requires removing the PLCC socket.
+* One footprint for the EFCIS gate array and later versions (a regular PLCC 68 socket).
 
 > Do not use **Development board for a replacement of the gate-array of the Thomson MO5 computer** if this project is not suitable for your project.
 
