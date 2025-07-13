@@ -6,8 +6,8 @@
 
   (title_block
     (title "Thomson MO5 — Gate array development board")
-    (date "2025-07-12")
-    (rev "v0.0.0-draft")
+    (date "2025-07-13")
+    (rev "v1.0.0")
     (company "Sporniket.com")
   )
 
